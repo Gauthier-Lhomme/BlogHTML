@@ -6,7 +6,7 @@ body {
     font-size: 16px;
     font-family: sans-serif;
     color: rgba(0, 0, 0, 0.87);
-    line-height: 1.8;
+    line-height: 1.6;
     margin : 0
 }
 
@@ -51,5 +51,69 @@ body {
 
 .banniere {
     height: 427px;
-    background: no-repeat center center / cover url("img/header.png");
+    background: no-repeat center center / cover  url("img/header.png");
+}
+
+.main {
+    float: left;
+    width: calc(100% - 375px);    
+    height: 200px;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.24);
+    z-index: 2;
+}
+
+.sidebar {
+    float: right;
+    background: rgba(211, 211, 211, 0.192);
+    width: 375px;
+    padding: 44px;
+    z-index: 1;
+}
+
+.sidebarTitle {
+    font-size: 30px;
+    color: #000000;
+    margin: 15px 0;
+}
+
+.sidebarTitle:first-child{
+    margin-top: 0;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 6px 0;
+}
+
+.sidebar li:first-child{
+    padding-top: 0;
+}
+
+.sidebar li:last-child{
+    padding-bottom: 0;
+}
+
+.sidebar hr {
+    border: none;
+    height: 1px;
+    background: #c4c4c4;
+    margin: 50px 0;
+}
+
+.sidebar a{
+    color: grey;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    clear: both;
 }

@@ -48,3 +48,8 @@ body {
 .social a:hover {
     opacity: 1;
 }
+
+.banniere {
+    height: 427px;
+    background: no-repeat center center / cover url("img/header.png");
+}

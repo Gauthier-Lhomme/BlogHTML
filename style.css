@@ -1,10 +1,23 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.otf') format("opentype") ;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.otf') format("opentype") ;
+    font-weight: 700;
+}
+
+
 *{
     box-sizing: border-box;
 }
 
 body, html {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     background: rgba(211, 211, 211, 0.192);
     line-height: 1.6;
     margin : 0;
